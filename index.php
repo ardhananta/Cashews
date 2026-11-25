@@ -15,7 +15,7 @@ require_once __DIR__ . '/includes/auth.php';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/indexstyle.css">
 </head>
 <body>
 
@@ -28,11 +28,8 @@ require_once __DIR__ . '/includes/auth.php';
         <h1 class="hero-title">Sepatu Kotor?<br>Serahkan pada <span class="highlight">Cashoes!</span></h1>
         <p class="hero-subtitle">Layanan cuci sepatu profesional dengan hasil maksimal.<br>Bersih, wangi, dan seperti baru lagi!</p>
         <div class="hero-buttons">
-            <a href="order.php" class="btn btn-primary btn-lg">
+            <a href="order.php" class="btn btn-outline btn-lg">
                 <i class="fas fa-bag-shopping"></i> Pesan Sekarang
-            </a>
-            <a href="#keunggulan" class="btn btn-outline btn-lg">
-                <i class="fas fa-arrow-down"></i> Pelajari Lebih
             </a>
         </div>
         <div class="hero-stats">
@@ -55,8 +52,6 @@ require_once __DIR__ . '/includes/auth.php';
 <!-- ===== KEUNGGULAN ===== -->
 <section class="section section-alt" id="keunggulan">
     <div class="container">
-        <h2 class="section-title">Kenapa <span class="highlight">Cashoes</span>?</h2>
-        <p class="section-subtitle">Kami memberikan layanan terbaik untuk sepatu kesayangan Anda</p>
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon">
@@ -87,12 +82,16 @@ require_once __DIR__ . '/includes/auth.php';
                 <p>Kualitas premium dengan harga yang ramah di kantong. Mulai dari Rp25.000!</p>
             </div>
         </div>
+        <div class="section-text">
+            <h2 class="section-title">Kenapa <span class="highlight">Cashoes</span>?</h2>
+            <p class="section-subtitle">Cashoes hadir sebagai solusi perawatan sepatu terpercaya yang menggabungkan teknik pembersihan profesional dengan bahan pembersih khusus yang aman untuk berbagai jenis material, mulai dari kanvas, kulit, hingga suede.<br><br>Dengan ditangani langsung oleh tenaga ahli yang memahami karakteristik setiap bahan, sepatu kesayangan Anda tidak hanya kembali bersih dan bebas bau, tetapi juga terjaga keawetan warna serta bentuk aslinya tanpa risiko kerusakan.<br><br>Ditambah dengan proses pengerjaan yang cepat, transparan, dan layanan antar-jemput yang praktis, memilih Cashoes berarti memberikan perawatan terbaik sekaligus menghemat waktu berharga Anda agar selalu tampil percaya diri di setiap langkah.</p>
+        </div>
     </div>
 </section>
 
 <!-- ===== LAYANAN ===== -->
 <section class="section" id="layanan">
-    <div class="container">
+    <div class="default-container">
         <h2 class="section-title">Layanan <span class="highlight">Kami</span></h2>
         <p class="section-subtitle">Pilih layanan yang sesuai dengan kebutuhan sepatu Anda</p>
         <div class="services-grid">
